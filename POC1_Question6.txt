@@ -1,0 +1,18 @@
+Q6.Find the output and write the explanation?
+
+
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		byte b=127;
+		++b;
+		b++;
+		System.out.println("Value of variable b: "+b);
+	}
+}
+
+//Value of variable b: -127
+// byte datatype stores values from -128 to +127
+// at  first time of  incremention the value of b becomes -128 and at second time it becomes -127
+//That's why the output is -127

@@ -1,0 +1,14 @@
+Q5.Find the output and write the explanation?
+
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		int t;
+		System.out.println("Value of variable t:"+t);
+	}
+}
+
+
+//Error
+//variable t might not have been initialized
